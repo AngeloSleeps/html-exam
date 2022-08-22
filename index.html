@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>UML Test</title>
+    <style>
+        .tab {
+            display: inline-block;
+            margin-left: 40px;
+        }
+
+        ol.question>li::marker {
+            font-size: 2em;
+        }
+
+        .bordered {
+            border: 1px black solid;
+        }
+
+        .answer-item {
+            content: '(' counter() ')'' ';
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Unified Modeling Language Theory Test</h1>
+    <form action="" method="post">
+        <p>Test Subject: Unified Modeling Language <span class="tab"></span>Time: 100 minute<span
+                class="tab"></span>Score: 100</p>
+        <p>Class: <input type="text" placeholder="Class 1"> <span class="tab"></span>Student ID: <input type="text" name="" id="" placeholder="001"><span
+                class="tab"></span>Name: <input type="text" name="" id="" placeholder="Darcy"></p>
+        <ol class="question">
+            <li>
+                <h1>Fill in the blanks(5 points per space, 20 points total)</h1>
+                <ol>
+                    <li>The full name of UML in Chinese is: <span class="bordered">Unified Modeling Language</span></li>
+                    <li>The most prominent feature of the object is: <span class="bordered">Encapsulation</span><span
+                            class="bordered tab">Inheritance</span><span class="bordered tab">Polymorphism</span></li>
+                </ol>
+            </li>
+            <li>
+                <h1>Multiple choice question(10 points per space, 20 points total)</h1>
+                <ol>
+                    <li>
+                        <span>The relationship between UML and software engineering is:</span>
+                        <ol type="A">
+                            <li class="answer-item">
+                                <input type="radio" name="q1" id="">
+                                <label for="">UML is software engineering</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="q1" id="" checked>
+                                <label for="">UML participates in several stages of the software development process in
+                                    software engineering</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="q1" id="">
+                                <label for="">UML has nothing to do with software engineering</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="q1" id="">
+                                <label for="">UML is part of software engineering</label>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <span>Java language: support</span>
+                        <ol type="A">
+                            <li>
+                                <input type="radio" name="q2" id="" checked>
+                                <label for="">Single inheritance</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="q2" id="">
+                                <label for="">Multiple inheritance</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="q2" id="">
+                                <label for="">Single inheritance and multiple inheritance support</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="q2" id="">
+                                <label for="">Single inheritance and multiple inheritance is not supported</label>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h1>Multiple choice(10 points per space, 20 points total)</h1>
+                <ol>
+                    <li>
+                        <span>
+                            The granularity of the use case is divided into the following three:
+                        </span>
+                        <ol type="A">
+                            <li>
+                                <input type="checkbox" name="" id="" checked>
+                                <label for="">Overview level</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="" checked>
+                                <label for="">Demand label</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="">
+                                <label for="">User target level</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="" checked>
+                                <label for="">Sub-function level</label>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>
+                        <span>
+                            The class diagram consists of which of the following three parts:
+                        </span>
+                        <ol type="A">
+                            <li>
+                                <input type="checkbox" name="" id="" checked>
+                                <label for="">Name</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="" checked>
+                                <label for="">Attribute</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="" checked>
+                                <label for="">Operation</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="" id="">
+                                <label for="">Function</label>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h1>True or False(10 points per space, 20 points total)</h1>
+                <ol>
+                    <li>
+                        <span>Use case diagrams are only used to communicate and communicate with customers to determine
+                            demand.</span>
+                        <input type="radio" name="diagram1" id="">
+                        <label for="">✓</label>
+                        <input type="radio" name="diagram1" id="" checked>
+                        <label for="">✗</label>
+                    </li>
+                    <li>
+                        <span>In the state diagram, the termination state allows any number of multiples in a state
+                            diagram</span>
+                        <input type="radio" name="diagram2" id="" checked>
+                        <label for="">✓</label>
+                        <input type="radio" name="diagram2" id="">
+                        <label for="">✗</label>
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h1>Short answer question(20 points per space, 20 points total)</h1>
+                <ol>
+                    <li>
+                        <p>Briefly describe what the model is and how it behaves</p>
+                        <textarea name="" id="" cols="80" rows="10">
+                            A model is a simplification and abstraction of the real world. A model is an expression of the system process, thing or concept of research. Can be a physical entity; can be a certain graphic; or a mathematical expression.
+                        </textarea>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+        <button type="submit">Calculating score</button>
+    </form>
+</body>
+
+</html>
